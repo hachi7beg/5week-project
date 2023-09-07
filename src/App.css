@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+li {
+  margin-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  margin-left: 10px; /* ボタンとテキスト間のスペースを設定 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-container {
+  border: 1px solid #ccc; /* 枠線を追加（1pxの灰色の実線） */
+  padding: 30px; /* 枠内の余白を追加 */
+  border-radius: 5px; /* 枠の角を丸める（オプション） */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ドロップシャドウを追加（オプション） */
+  margin: 20px;
+  max-width: fit-content; /* 最大幅をコンテンツに合わせる */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  margin-top: 20px;
+  margin-left:20px ;
 }
